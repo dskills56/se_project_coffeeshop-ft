@@ -2,14 +2,19 @@
   background-color: #0A2850;
   color: #fff;
   position: relative;
+  z-index: 1;
   padding: 60px 20px;
   border-radius: 10px;
   margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  max-width: 251px;
   font-size: 44px;
   line-height: 52px;
   color: #ffffff;
@@ -26,27 +31,40 @@
 .about__paragraph {
   margin-bottom: 16px;
 }
-
 .about__circle {
   width: 240px;
   height: 240px;
   background-color: #187BDC;
   border-radius: 50%;
   position: absolute;
-  top: 80px;
-  left: 152px;
-  z-index: 0;
+  top: -6px;
+  left: -96px;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
+  position: absolute; ;
   width: 240px;
   height: 240px;
   background-color: #187BDC;
   border-radius: 50%;
-  top: 80px;
-  left: 152px;
-  z-index: 0;
+  top: -6px;
+  left: -96px;
+  z-index: -1;
   animation: pulsate 1.3s ease-in-out infinite;
+
 }
 
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
