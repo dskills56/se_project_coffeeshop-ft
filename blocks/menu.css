@@ -1,11 +1,9 @@
 .menu {
-
-  background-image: url('../images/background_menu.svg');
+  background-image: url("../images/background_menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 100px 20px;
-  text-align: center;
   flex-wrap: wrap;
 }
 
@@ -30,39 +28,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-}
-
-.card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  width: 600px;
-}
-
-.card__title {
-  font-family: "Noto Serif", serif;
-  font-size: 20px;
-  margin-bottom: 12px;
-  color: #000;
-}
-
-.card__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card__list-item {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  color: #000;
-  padding: 4px 0;
-}
-
-.card__list-divider {
-  flex-grow: 1;
-  margin-right: 10px;
-  text-align: left;
 }

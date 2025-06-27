@@ -1,18 +1,16 @@
 .about {
-  background-color: #0A2850;
+  background-color: #0a2850;
   color: #fff;
   position: relative;
   z-index: 1;
   padding: 60px 20px;
-  border-radius: 10px;
-  margin: 40px 0;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
 }
 
 .about__title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   max-width: 251px;
   font-size: 44px;
@@ -22,7 +20,7 @@
 }
 
 .about__content {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 600px;
@@ -34,7 +32,7 @@
 .about__circle {
   width: 240px;
   height: 240px;
-  background-color: #187BDC;
+  background-color: #187bdc;
   border-radius: 50%;
   position: absolute;
   top: -6px;
@@ -43,16 +41,15 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute; ;
+  position: absolute;
   width: 240px;
   height: 240px;
-  background-color: #187BDC;
+  background-color: #187bdc;
   border-radius: 50%;
   top: -6px;
   left: -96px;
   z-index: -1;
   animation: pulsate 1.3s ease-in-out infinite;
-
 }
 
 @keyframes pulsate {
