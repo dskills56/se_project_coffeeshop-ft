@@ -26,8 +26,13 @@
   padding: 4px 0;
 }
 
-.card__list-divider {
+.card__list-divider{
+  margin: 10px 10px 0 10px;
+  display: block;
   flex-grow: 1;
-  margin-right: 10px;
   text-align: left;
+  min-width: 50px;
+  height: 1px;
+  background-color: black;
+
 }
